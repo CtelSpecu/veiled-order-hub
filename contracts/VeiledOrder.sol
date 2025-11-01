@@ -6,6 +6,8 @@ import {SepoliaConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 
 /// @title VeiledOrder - Private order storage using FHEVM
 /// @notice Stores encrypted trading orders (buy/sell) with amount and price
+
+/// @author Jo0088
 /// @dev This contract enables privacy-preserving order submission and retrieval
 contract VeiledOrder is SepoliaConfig {
     struct Order {
