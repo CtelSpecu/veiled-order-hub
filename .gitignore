@@ -1,0 +1,52 @@
+
+artifacts
+build
+cache
+coverage
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+coverage.json
+deployment-info.json
+deployments
+# directories
+dist
+dist-ssr
+.DS_Store
+# Editor directories and files
+*.env
+# fhevm
+fhevmTemp
+# files
+# Hardhat files
+.idea
+*.key
+lerna-debug.log*
+*.local
+*.log
+logs
+# Logs
+*.njsproj
+node_modules
+npm-debug.log*
+*.ntvs*
+*.pem
+.pnp.*
+pnpm-debug.log*
+pnpm-lock.yaml
+private-keys/
+# Private keys and sensitive data
+refer/*
+secrets/
+*.sln
+*.suo
+*.sw?
+tmp
+typechain-types
+types
+.vscode/*
+!.vscode/extensions.json
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+*:Zone.Identifier
