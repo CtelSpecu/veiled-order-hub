@@ -5,3 +5,7 @@
 
 ### Testing
 - pnpm -C frontend test
+
+## Features
+- Privacy-preserving order submission
+- Encrypted on-chain data
