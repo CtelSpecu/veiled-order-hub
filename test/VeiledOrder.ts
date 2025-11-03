@@ -1,3 +1,6 @@
+// VeiledOrder Contract Test Suite
+// Tests encrypted order submission and retrieval
+
 import { HardhatEthersSigner } from "@nomicfoundation/hardhat-ethers/signers";
 import { ethers, fhevm } from "hardhat";
 import { VeiledOrder, VeiledOrder__factory } from "../types";
