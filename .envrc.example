@@ -1,0 +1,4 @@
+use node 18
+set -a
+source_env .env
+set +a
