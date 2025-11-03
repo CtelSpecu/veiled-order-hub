@@ -1,3 +1,5 @@
+// Veiled Order Hub - Main Layout
+
 import type { Metadata } from "next";
 import "./globals.css";
 import { BrandLogo } from "@/components/BrandLogo";
