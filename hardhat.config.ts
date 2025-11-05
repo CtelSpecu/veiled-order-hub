@@ -1,3 +1,5 @@
+// Hardhat configuration for VeiledOrder project
+
 import "@fhevm/hardhat-plugin";
 import "@nomicfoundation/hardhat-chai-matchers";
 import "@nomicfoundation/hardhat-ethers";
