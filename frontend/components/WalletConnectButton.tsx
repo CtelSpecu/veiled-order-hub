@@ -4,6 +4,7 @@ import React from "react";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Loader2, WifiOff } from "lucide-react";
 import clsx from "clsx";
+import Image from "next/image";
 
 type WalletConnectButtonProps = {
   className?: string;
@@ -88,10 +89,13 @@ export const WalletConnectButton = ({
             >
               {chain.hasIcon && chain.iconUrl ? (
                 <span className="flex h-5 w-5 items-center justify-center overflow-hidden rounded-full bg-base-300">
-                  <img
+                  <Image
                     alt={chain.name ?? "Chain icon"}
                     src={chain.iconUrl}
+                    width={20}
+                    height={20}
                     className="h-full w-full object-cover"
+                    unoptimized
                   />
                 </span>
               ) : null}

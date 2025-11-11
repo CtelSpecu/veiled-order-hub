@@ -10,4 +10,3 @@ export default function Home() {
   );
 }
 
-export { isHealthy } from '../utils/health';
